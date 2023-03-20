@@ -5,6 +5,7 @@
     --primary: #fe2c55;
     --black:#000;
     --text-color:#333;
+    --white:#fff;
 
     //default layout
     --default-layout-header-hieght: 60px;
@@ -15,11 +16,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
+    box-sizing: inherit;
 }
 
 body {
@@ -27,6 +28,8 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
+    box-sizing: border-box;
+
 }
 
 button,input,[tabindex]{
